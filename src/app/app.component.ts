@@ -10,11 +10,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
   standalone: true,
   imports: [
     RouterOutlet,
-    RouterLink,
-    // TaskListComponent,
-    // CreateTaskComponent,
-    // HomeComponent,
-    // NotFoundComponent
+    RouterLink
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

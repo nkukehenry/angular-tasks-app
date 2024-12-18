@@ -1,1 +1,10 @@
+<div style="margin-top:100px"></div>
 <p class="mt-5">task-list works!</p>
+
+<button (click)="getTodos()">Refresh Todos</button>
+
+<div class="todo" *ngFor="let todo of todos">
+    <div class="name"><strong>{{todo.name}}</strong></div>
+    <div class="description">{{todo.description}}</div>
+    <div class="due_date">{{todo.due_date}}</div>
+</div>

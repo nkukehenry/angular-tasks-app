@@ -1,0 +1,15 @@
+
+.todo{
+    padding: 10px;
+    border-bottom: 1px solid #EEE;
+    width: 100%;
+
+}
+
+.name, .due_date{
+    margin: 5px;
+}
+
+.due_date{
+    color:blue;
+}
